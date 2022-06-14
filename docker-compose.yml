@@ -119,7 +119,7 @@ services:
       eureka.instance.hostname: service-registry
       eureka.client.serviceUrl.defaultZone: http://service-registry:8761/eureka/                        
   frontend:
-    image: "moberbar/angular-img"
+    image: "moberbar/frontend-angular-img"
     ports:
       - 4200:80
     depends_on:
